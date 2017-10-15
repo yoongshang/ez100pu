@@ -3,8 +3,8 @@ EZUSB(EZ100PU/EZMINI) Driver v1.5.3(for 64-bit) Installation guide for Linux:
    For installing EZUSB PC/SC driver, please follow these steps -
 
    1. Execute enviroment check program: ./check_env
-      If the screen shows "PC/SC Daemon Not Ready", please goto the website 
-      http://www.linuxnet.com/middle.html to download and install the pcsclite package.
+      If the screen shows "PC/SC Daemon Not Ready", 
+      	`sudo apt-get install pcscd pcsc-tools`
       If the scrren shows "Error! USB Device File System Not Mounted", please mount USB
       file system according to the instruction.
 	
